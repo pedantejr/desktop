@@ -34,7 +34,9 @@
     "publish": "node script/publish",
     "clean-slate": "rimraf out node_modules app/node_modules && yarn",
     "rebuild-hard:dev": "yarn clean-slate && yarn build:dev",
-    "rebuild-hard:prod": "yarn clean-slate && yarn build:prod"
+    "rebuild-hard:prod": "yarn clean-slate && yarn build:prod",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": {
     "name": "GitHub, Inc.",
@@ -95,7 +97,8 @@
     "webpack-hot-middleware": "^2.18.0",
     "webpack-merge": "^4.1.0",
     "xml2js": "^0.4.16",
-    "xvfb-maybe": "^0.2.1"
+    "xvfb-maybe": "^0.2.1",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "@types/byline": "^4.2.31",
@@ -140,5 +143,6 @@
       "category": "Development",
       "icon": "app/static/logos"
     }
-  }
+  },
+  "snyk": true
 }
