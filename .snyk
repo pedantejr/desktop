@@ -1,0 +1,41 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - electron-installer-debian > asar > mksnapshot > request > extend:
+        patched: '2021-07-05T19:31:12.425Z'
+    - electron-installer-redhat > asar > mksnapshot > request > extend:
+        patched: '2021-07-05T19:31:12.425Z'
+  'npm:hoek:20180212':
+    - electron-installer-debian > asar > mksnapshot > request > hawk > hoek:
+        patched: '2021-07-05T19:31:12.425Z'
+    - electron-installer-redhat > asar > mksnapshot > request > hawk > hoek:
+        patched: '2021-07-05T19:31:12.425Z'
+    - electron-installer-debian > asar > mksnapshot > request > hawk > boom > hoek:
+        patched: '2021-07-05T19:31:12.425Z'
+    - electron-installer-redhat > asar > mksnapshot > request > hawk > boom > hoek:
+        patched: '2021-07-05T19:31:12.425Z'
+    - electron-installer-debian > asar > mksnapshot > request > hawk > sntp > hoek:
+        patched: '2021-07-05T19:31:12.425Z'
+    - electron-installer-redhat > asar > mksnapshot > request > hawk > sntp > hoek:
+        patched: '2021-07-05T19:31:12.425Z'
+    - electron-installer-debian > asar > mksnapshot > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-07-05T19:31:12.425Z'
+    - electron-installer-redhat > asar > mksnapshot > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-07-05T19:31:12.425Z'
+  SNYK-JS-LODASH-567746:
+    - electron-installer-debian > lodash:
+        patched: '2021-07-05T19:31:12.425Z'
+    - electron-installer-redhat > lodash:
+        patched: '2021-07-05T19:31:12.425Z'
+    - electron-installer-debian > async > lodash:
+        patched: '2021-07-05T19:31:12.425Z'
+    - electron-installer-redhat > async > lodash:
+        patched: '2021-07-05T19:31:12.425Z'
+  'npm:stringstream:20180511':
+    - electron-installer-debian > asar > mksnapshot > request > stringstream:
+        patched: '2021-07-05T19:31:12.425Z'
+    - electron-installer-redhat > asar > mksnapshot > request > stringstream:
+        patched: '2021-07-05T19:31:12.425Z'
