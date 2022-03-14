@@ -92,7 +92,7 @@
     "typescript-eslint-parser": "^9.0.0",
     "webpack": "^3.5.5",
     "webpack-dev-middleware": "^1.12.0",
-    "webpack-hot-middleware": "^2.18.0",
+    "webpack-hot-middleware": "^2.25.1",
     "webpack-merge": "^4.1.0",
     "xml2js": "^0.4.16",
     "xvfb-maybe": "^0.2.1"
