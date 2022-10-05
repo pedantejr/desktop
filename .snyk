@@ -1,0 +1,217 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - request > extend:
+        patched: '2022-10-05T15:52:35.316Z'
+    - node-sass > request > extend:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > request > extend:
+        patched: '2022-10-05T15:52:35.316Z'
+    - node-sass > node-gyp > request > extend:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > webdriverio > request > extend:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > extend:
+        patched: '2022-10-05T15:52:35.316Z'
+  'npm:hoek:20180212':
+    - spectron > webdriverio > request > hawk > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > webdriverio > request > hawk > boom > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > webdriverio > request > hawk > sntp > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > webdriverio > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - request > hawk > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - request > hawk > boom > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - request > hawk > sntp > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - node-sass > request > hawk > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > request > hawk > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - node-sass > request > hawk > boom > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > request > hawk > boom > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - node-sass > request > hawk > sntp > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > request > hawk > sntp > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - node-sass > node-gyp > request > hawk > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - node-sass > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > hawk > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > hawk > boom > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > hawk > sntp > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-10-05T15:52:35.316Z'
+  SNYK-JS-LODASH-567746:
+    - awesome-typescript-loader > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-core > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - eslint > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - html-webpack-plugin > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - webpack-merge > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - aws-sdk > xmlbuilder > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-core > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-core > babel-generator > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-core > babel-traverse > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-core > babel-template > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-minify > babel-core > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > babel-core > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-core > babel-register > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - extract-text-webpack-plugin > async > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - sass-loader > async > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - webpack > async > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - eslint > inquirer > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - eslint > table > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - node-sass > sass-graph > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-core > babel-generator > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-core > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-core > babel-template > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-minify > babel-core > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > babel-core > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-minify > babel-core > babel-generator > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > babel-core > babel-generator > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-core > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-minify > babel-core > babel-traverse > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > babel-core > babel-traverse > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-core > babel-helpers > babel-template > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-minify > babel-core > babel-template > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > babel-core > babel-template > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-minify > babel-core > babel-register > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > babel-core > babel-register > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - webpack > watchpack > async > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > webpack > async > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - node-sass > gaze > globule > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > webdriverio > archiver > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > webdriverio > inquirer > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-minify > babel-core > babel-generator > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > babel-core > babel-generator > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-minify > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > babel-core > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-minify > babel-core > babel-template > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > babel-core > babel-template > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-minify > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > babel-core > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-minify > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > babel-core > babel-helpers > babel-template > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > webpack > watchpack > async > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > webdriverio > archiver > async > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > webdriverio > gaze > globule > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > webdriverio > archiver > archiver-utils > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > webdriverio > archiver > zip-stream > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-minify > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > babel-core > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-minify > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > babel-core > babel-helpers > babel-template > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-minify > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > babel-core > babel-helpers > babel-template > babel-traverse > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > webdriverio > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-minify > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+    - babel-webpack-plugin > babel-core > babel-helpers > babel-template > babel-traverse > babel-types > lodash:
+        patched: '2022-10-05T15:52:35.316Z'
+  'npm:stringstream:20180511':
+    - request > stringstream:
+        patched: '2022-10-05T15:52:35.316Z'
+    - node-sass > request > stringstream:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > request > stringstream:
+        patched: '2022-10-05T15:52:35.316Z'
+    - node-sass > node-gyp > request > stringstream:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > webdriverio > request > stringstream:
+        patched: '2022-10-05T15:52:35.316Z'
+    - spectron > electron-chromedriver > electron-download > nugget > request > stringstream:
+        patched: '2022-10-05T15:52:35.316Z'
