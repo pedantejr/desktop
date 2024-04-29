@@ -80,7 +80,7 @@
     "request": "^2.72.0",
     "rimraf": "^2.5.2",
     "sass-loader": "^6.0.6",
-    "spectron": "^3.7.2",
+    "spectron": "^11.1.0",
     "style-loader": "^0.18.2",
     "to-camel-case": "^1.0.0",
     "ts-node": "^3.2.0",
